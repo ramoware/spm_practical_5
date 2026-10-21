@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramdev Chaudhary — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Ramdev Chaudhary</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> <!-- Home Section -->
+    <section id="home">
+        <div class="hero-content">
+            <p class="eyebrow">Welcome to my portfolio</p>
+            <h1>Hi, I'm <span>Ramdev Chaudhary</span></h1>
+            <p class="tagline">C++ Systems Engineer | Quantitative Finance &amp; ML Enthusiast</p> <a href="#contact"
+                class="btn">Get in Touch</a>
+        </div>
+    </section> <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container"> <img src="profile.png" alt="Profile picture of Ramdev Chaudhary">
+            <p> I'm a final-year IT student focused on native, performance-critical C++ systems and quantitative
+                research. I build cache-aware engines, SIMD-optimized numerical kernels, and event-driven simulators —
+                and I care about writing software that is fast, correct, and honest about its own limitations. </p>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>LOB Transformer Inference Engine</h3>
+                <p> A native, cache-optimized C++ inference engine and simulated virtual backtester for spatial-temporal
+                    Limit Order Book transformer models — 64-byte cache alignment, AVX2 SIMD matrix kernels, and
+                    microsecond-latency token-streaming execution. </p> <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>SPM Practical Suite</h3>
+                <p> A collection of software project management tools: COCOMO effort estimation, a risk register, Earned
+                    Value Analysis dashboards, and WBS/scope documentation workflows. </p> <a href="#" class="btn">View
+                    Project</a>
+            </div>
+        </div>
+    </section> <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">C++17/20</div>
+            <div class="skill">Python</div>
+            <div class="skill">CMake</div>
+            <div class="skill">AVX2 / SIMD</div>
+            <div class="skill">Git &amp; GitHub</div>
+            <div class="skill">NumPy / Pandas</div>
+            <div class="skill">Quantitative Finance</div>
+            <div class="skill">System Design</div>
+        </div>
+    </section> <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form"> <input type="text" placeholder="Your Name" required> <input type="email"
+                placeholder="Your Email" required> <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button> </form>
+    </section> <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ramdev Chaudhary. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
